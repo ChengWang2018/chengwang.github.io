@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Silent Testing"
-permalink: /ST/
+permalink: /silenttesting/
 author_profile: true
 ---
 
@@ -11,8 +11,8 @@ Testing capabilities
 ======
 highway scenarios
 
-<img src='/images/Silent testing for AVs.png' alt="drawing" width="700"/>
+<img src='/images/st1.png' alt="drawing" width="700"/>
 
 Urban scenarios
 
-<img src='/images/Silent testing for AVs2.png' alt="drawing" width="700"/>
+<img src='/images/st2.png' alt="drawing" width="700"/>

@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Silent Testing"
-    url: /ST/
+    url: /silenttesting/
 
   - title: "Explainable AV Intelligence"
     url: /XAVI/
