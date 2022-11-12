@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/mmistakes/minimal-mistakes/issues"
   },
-  "homepage": "https://chengwang.github.io/",
+  "homepage": "https://chengwang.github.io",
   "engines": {
     "node": ">= 0.10.0"
   },
