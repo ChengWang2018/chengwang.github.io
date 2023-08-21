@@ -8,14 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Postdoc in the [Autonomous Agents Research Group](https://agents.inf.ed.ac.uk/) at [University of Edinburgh](https://www.ed.ac.uk/). My research focuses on explainable AI with a particular emphasis on autonomous vehicles. I was previously a PhD student in [Institute of Automotive Engineering](https://www.fzd.tu-darmstadt.de/fzd/index.en.jsp) at [Technical University of Darmstadt](https://www.tu-darmstadt.de/) with the research topic of autonomous vehicle safety. I obtained my Master at Tongji University and Bachelor at Wuhan University of Technology.  
+I am currently a Postdoc in the [Autonomous Agents Research Group](https://agents.inf.ed.ac.uk/) at [University of Edinburgh](https://www.ed.ac.uk/). My research focuses on explainable AI with a particular emphasis on autonomous vehicles. I was previously a PhD student in [Institute of Automotive Engineering](https://www.fzd.tu-darmstadt.de/fzd/index.en.jsp) at [Technical University of Darmstadt](https://www.tu-darmstadt.de/) with the research topic of autonomous vehicle safety. I obtained my Master at Tongji University and Bachelor at the Wuhan University of Technology.  
 
 News
 ======
-- 01/07/2023 Our paper about goal recognition for autonomous vehicles is accpeted by IEEE IROS 2023!
+- 21/08/2023 Our paper about adversarial datasets for testing lane marking detection algorithms is accepted by the international Conference on Vehicular Control and Intelligence (CVCI) 2023.
+- 01/07/2023 Our paper about goal recognition for autonomous vehicles is accepted by IEEE IROS 2023!
 - 10/10/2022 I joined the Autonomous Agents Research Group as a Postdoc.
 - 21/02/2022 I was a senior engineer at DJI responsible for the safety design of L3 automated vehicles
-- 26/10/2021 I passed my doctoral examination with very good with the title of "*Silent Testing for safety Validation of Automated Driving in Field Operation*". 
+- 26/10/2021 I passed my doctoral examination with very good with the title of "*Silent Testing for Safety Validation of Automated Driving in Field Operation*". 
 
 
 Publications
@@ -29,6 +30,7 @@ Publications
 6. B.Gyevnar, C.Wang, C. G.Lukas, S. B.Cohen, S. V.Albrecht. Causal Social Explanations for Stochastic Sequential Multi-Agent Decision-Making. arXiv preprint arXiv:2302.10809.  2023 Feb 21.
 7. C. Wang, F.W. Guo, R.L Yu, L.Y. Wang, Y.X. Zhang. The Application of Driver Models in the Safety Assessment of Autonomous Vehicles: A Survey. arXiv preprint arXiv:2303.14779,  2023 Mar 26.
 8. C. Brewitt, M. Tamborski, C.Wang, S.V. Albrecht. Verifiable Goal Recognition for Autonomous Driving with Occlusions. IEEE IROS 2023.
+9. H.H. He, C. Wang, Y.X. Zhang, M. Zhao,  Benchmark for SOTIF of Lane Marking Detection Algorithms of Autonomous Vehicles, CVCI 2023.
 
 Projects
 ======
