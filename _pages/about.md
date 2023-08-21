@@ -12,7 +12,7 @@ I am currently a Postdoc in the [Autonomous Agents Research Group](https://agent
 
 News
 ======
-- 21/08/2023 Our paper about adversarial datasets for testing lane marking detection algorithms is accepted by the international Conference on Vehicular Control and Intelligence (CVCI) 2023.
+- 21/08/2023 Our paper about adversarial datasets for testing lane marking detection algorithms is accepted by the international Conference on Vehicular Control and Intelligence (CVCI) 2023!
 - 01/07/2023 Our paper about goal recognition for autonomous vehicles is accepted by IEEE IROS 2023!
 - 10/10/2022 I joined the Autonomous Agents Research Group as a Postdoc.
 - 21/02/2022 I was a senior engineer at DJI responsible for the safety design of L3 automated vehicles
@@ -29,7 +29,7 @@ Publications
 5. B. Gyevnar, M. Tamborski, <ins>C. Wang</ins>, C. G. Lucas, S. B. Cohen, and S. V. Albrecht. "A human-centric method for generating causal explanations in natural language for autonomous vehicle motion planning." arXiv preprint arXiv:2206.08783  (2022).
 6. B.Gyevnar, <ins>C.Wang</ins>, C. G.Lukas, S. B.Cohen, S. V.Albrecht. Causal Social Explanations for Stochastic Sequential Multi-Agent Decision-Making. arXiv preprint arXiv:2302.10809.  2023 Feb 21.
 7. <ins>C. Wang</ins>, F.W. Guo, R.L Yu, L.Y. Wang, Y.X. Zhang. The Application of Driver Models in the Safety Assessment of Autonomous Vehicles: A Survey. arXiv preprint arXiv:2303.14779,  2023 Mar 26.
-8. C. Brewitt, M. Tamborski, /ins>C.Wang</ins>, S.V. Albrecht. Verifiable Goal Recognition for Autonomous Driving with Occlusions. IEEE IROS 2023.
+8. C. Brewitt, M. Tamborski, <ins>C.Wang</ins>, S.V. Albrecht. Verifiable Goal Recognition for Autonomous Driving with Occlusions. IEEE IROS 2023.
 9. H.H. He, <ins>C. Wang</ins>, Y.X. Zhang, M. Zhao,  Benchmark for SOTIF of Lane Marking Detection Algorithms of Autonomous Vehicles, CVCI 2023.
 
 Projects
