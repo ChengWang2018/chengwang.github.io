@@ -7,12 +7,7 @@ body {
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
   }
 }
@@ -34,17 +29,19 @@ body.sticky-bottom-footer {
 // Profile
 .profile {
   img {
-    width: 100%;
+    width: 50%;
   }
 }
 
 // TODO: redefine content layout.
+
 
 /******************************************************************************
  * Publications
  ******************************************************************************/
 
 // TODO: redefine publications layout.
+
 
 /*****************************************************************************
 * Projects
