@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Our paper about causal explanations for sequential decision-making was accepted by AAMAS2024.
