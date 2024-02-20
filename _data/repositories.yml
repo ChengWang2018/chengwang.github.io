@@ -1,12 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ChengWang2018
+  - ADSafetyJointLab
+  - uoe-agents
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ChengWang2018/DriverModel4Merging
+  - ChengWang2018/LaneMarkingDetection
+  - ADSafetyJointLab/PBLMD
+  - ADSafetyJointLab/AD4CHE
+  - uoe-agents/cema
+  - uoe-agents/OGRIT
+    
