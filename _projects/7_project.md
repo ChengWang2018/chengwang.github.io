@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Driving behavior
-description: Driving behavior modeling for creating realistic simulations
-img: assets/img/Drivingbehavior.png
+title: Interpretable prediction
+description: Designing interpretable goal recognition for autonomous vehicles
+img: assets/img/Goalrecognition.png
 importance: 1
-category: Safety verification and validation
-related_publications: false
+category: Safety by design
+related_publications: true
 ---
 
 
