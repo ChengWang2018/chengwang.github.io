@@ -5,7 +5,7 @@ description: Methodology development for safety verification and validation
 img: assets/img/ST.png
 importance: 1
 category: Safety verification and validation 
-related_publications: true
+related_publications: false
 ---
 
 
@@ -18,7 +18,7 @@ As a part of the German project [VVM](https://www.vvm-projekt.de/en/), we have d
 <p style="text-align: center;"><em>Test partial functions or capabilities of AVs in the background without intervention in the physical vehicle</em></p>  
 
 We implemented this method to address the validation of AV perception, utilizing a lane marking detection algorithm
-(LMDA) as a case study. Meanwhile, we demonstrated the method to validate AV systems botn in urban and highway scenarios. 
+(LMDA) as a case study. Meanwhile, we demonstrated the method to validate AV systems botn in urban and highway scenarios. Our research was also reported in the [VVM midterm event](https://www.vvm-projekt.de/securedl/sdl-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MDg2Mzc5OTAsImV4cCI6MTcwODcyNzk5MCwidXNlciI6MCwiZ3JvdXBzIjpbMCwtMV0sImZpbGUiOiJmaWxlYWRtaW4vdXNlcl91cGxvYWQvTWlkLVRlcm0vVlZNX0haRV9TM19QMl8yMDIyMDMxNV9WQUFGTy5wZGYiLCJwYWdlIjo4Mn0.YVrv4tw3B5PJkRHlE8DsuK4wk9q1pUTp-C0aDdCEE_A/VVM_HZE_S3_P2_20220315_VAAFO.pdf).
 
 <div class="row justify-content-sm-center">
 	<div class="col-sm-7 mt-3 mt-md-0">
@@ -36,7 +36,7 @@ We implemented this method to address the validation of AV perception, utilizing
 
 For the safety assessment of AVs, criticality metrics play an important role. They are not only essential for collision avoidance systems but also play a vital role for verification and validation of automated vehicles. With respect to the first application, criticality metrics should be real-time capable and applicable in various traffic situations. For thesecond application, holistic safety evaluation by criticality metrics is desired. However, existing criticality metrics hardly meet these two requirements. They are either only applicable in post-processing or only assess the safety of maneuvers in longitudinal direction.
  
-We solve this problem by proposing an acceleration-based criticality metric, which takes various evasion maneuvers into account when dealing with critical situations, enabling more objective and holistic risk assessment. In addition, we aremodeling *careful* and *competent* driver models for assessing the safety of AVs. An AV is to be blamed if it occurs collisions in a scenario where a careful and competent driver does not. Meantime, if a careful and competent driver has no collison in a scenario, an AV shall have the same result in this scenario.
+We solve this problem by proposing an [acceleration-based criticality metric](https://ieeexplore.ieee.org/abstract/document/9808147), which takes various evasion maneuvers into account when dealing with critical situations, enabling more objective and holistic risk assessment. In addition, we are modeling ***careful*** and ***competent*** driver models for assessing the safety of AVs. An AV is to be blamed if it occurs collisions in a scenario where a careful and competent driver does not. Meantime, if a careful and competent driver has no collison in a scenario, an AV shall have the same result in this scenario.
 
 <div class="row justify-content-sm-center">
      <div class="col-sm-6 mt-3 mt-md-0">
@@ -44,6 +44,6 @@ We solve this problem by proposing an acceleration-based criticality metric, whi
      </div>
 </div>
 <div class="caption">
-     tbd
+     Reasonably foreseeable scenarios from a defined ODD within the open world are fed to an AV and a reference driver model. By comparing whether they lead to a collision or not in the same test scenario, AV safety verification is performed.
 </div> 
  

@@ -13,6 +13,36 @@ During my Ph.D. at the Technical University of Darmstadt, I had the honor of tea
 - 2020 & 2021, Automotive Engineering Tutorials, Technical University of Darmstadt, Master. I was responsible for "Parking" and "Driving resistance".
 - 2021, Motor Vehicles, Technical University of Darmstadt, Bachelor.
 
-In addition, I supervised 9 postgraduate students and 1 undergraduate student, 8 advance design projects. I am grateful to all the students I have worked with.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/tae.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/tutorial.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/maa.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: Trend of Automotive Engineering. Middle: Automotive Engineering Tutorials. Right: Automotive Mechatronics and Assistance Systems. 
+</div>
 
 
+In addition, I supervised **9** postgraduate students and **1** undergraduate student, **8** advance design projects. I am grateful to all the students I have worked with.
+
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/student1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/student2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/student3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: We conducted experiments in Griesheim. Middle: We executed tests on German Highway A5. Right: vehicle communication via ADMA.
+</div>

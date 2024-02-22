@@ -5,19 +5,24 @@ description: Designing interpretable goal recognition for autonomous vehicles
 img: assets/img/Goalrecognition.png
 importance: 1
 category: Safety by design
-related_publications: true
+related_publications: false
 ---
 
 
-Autonomous vehicles (AVs) are considered to be the future of mobility due to their potential to significantly enhance transportation safety and sustainability. While substantial progress has been made in this field due to extensive research and development, the safety assessment of AVs remains a serious challenge, posing obstacles to their widespread adoption. Commonly, the safety of AVs is measured by comparing them to the performance of human drivers. However, to demonstrate their safety, it would require hundreds of millions of miles of real-world testing, a process inherently fraught with unpredictable risks. Given the impracticality of such extensive real-world testing, simulation-based testing has emerged as a key approach to test AVs efficiently and safely, wherein short-term concrete scenarios or detailed traffic interactions are created. But for simulation results to be credible, high-fidelity simulators are a prerequisite. This typically necessitates realistic traffic behavior modeling of background agents.
+Goal recognition (GR) involves inferring the goals of other vehicles, such as a certain junction exit, which can enable more accurate prediction of their future behaviour. In autonomous driving, vehicles can encounter many different scenarios and the environment may be partially observable due to occlusions.
 
-To this end, this project aims to develop novel **Imitation learning** and **Reinforcement learning** -based methods to achieve *interactive*, *human-like* and *generalizable* behavior models while enabling *diverse* traffic situations. 
+In this project, we present a novel GR method named Goal Recognition with Interpretable Trees under Occlusion (OGRIT)[[paper](https://ieeexplore.ieee.org/abstract/document/10342386)[[video](https://www.youtube.com/watch?v=Q9G8UqPNwHM)]. OGRIT uses decision trees learned from vehicle trajectory data to infer the probabilities of a set of generated goals. We demonstrate that OGRIT can handle missing data due to occlusions and make inferences across multiple scenarios using the same learned decision trees, while being computationally fast, accurate, interpretable and verifiable. 
 
 <div class="row justify-content-sm-center">
-	<div class="col-sm-6 mt-3 mt-md-0">
-          {% include figure.liquid path="assets/img/Drivingbehavior.png" title="example" class="img-fluid rounded z-depth-1" %}
+	<div class="col-sm-5 mt-3 mt-md-0">
+          {% include figure.liquid path="assets/img/Goalrecognition.png" title="example" class="img-fluid rounded z-depth-1" %}
 	</div>
+        <div class="col-sm-6 mt-3 mt-md-0">
+         {% include figure.liquid path="assets/img/ogritdataset.png" title="example" class="img-fluid rounded z-depth-1" %}
+       </div>
 </div>
 <div class="caption">
-     Background agents are powered by our trained policy.
-</div>         
+     Left figure: the blue autonomous vehicle predicts that the stopped vehicle has three different goals. Each goal is associated with corresponding probability. Right figure: the implementation of the method in the inD and roundD datasets.
+</div>        
+
+Our research was also reported by Five AI/Bosch. More information can be found [here](https://www.five.ai/ogrit). 
