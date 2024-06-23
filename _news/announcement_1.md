@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "FedPRM: Federated Personalized Mixture Representation for Driver Intention Prediction" is accepted by IEEE Transaction on Intelligent Vehicles.
+Our paper about "FedPRM: Federated Personalized Mixture Representation for Driver Intention Prediction" is accepted by IEEE Transaction on Intelligent Vehicles.
