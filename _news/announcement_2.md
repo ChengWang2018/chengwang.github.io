@@ -1,12 +1,12 @@
 ---
 layout: post
 title: A long announcement with details
-date: 2023-12-07 16:11:00-0400
+date: 2024-07-06 16:11:00-0400
 inline: true
 related_posts: false
 ---
 
-Our paper about "Runtime unknown unsafe scenarios identification for SOTIF of autonomous vehicles" is accepted by Accident Analysis and Prevention.
+Our paper about "Safety Assessment for Autonomous Vehicles: A Reference Driver Model for Highway Merging Scenarios" is accepted by Accident Analysis and Prevention.
 
 <!--
 ---
