@@ -1,0 +1,1 @@
+I am writing my bachelor thesis about “Adversarial Lane Marking Generation for Accelerated Testing of Autonomous Vehicles using Diffusion models” under the joint programm between HWU and Ocean University of China.

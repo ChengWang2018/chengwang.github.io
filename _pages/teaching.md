@@ -7,6 +7,8 @@ nav: true
 nav_order: 6
 ---
 
+2014, I am currently teaching the Introduction of Electrical Engineering at HWU and Ocean University of China.
+
 During my Ph.D. at the Technical University of Darmstadt, I had the honor of teaching the following courses:
 - 2020 & 2021, Trends in Automotive Engineering, Technical University of Darmstadt, Bachelor and Master.
 - 2021, Automotive Mechatronics and Assistance Systems, Technical University of Darmstadt, Master. I wan responsible for the chapters "Radar", "Lidar" and "Time-of-flight".
