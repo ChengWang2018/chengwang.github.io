@@ -1,2 +1,2 @@
-I am a PhD candidate at RoboSafe. I achieve my master degree at the TU Darmstadt. My research interest is scenario generation, GAI and Diffusion models.
+I am a PhD candidate at the RoboSafe Lab. I obtained my bachelor’s degree from Beijing Institute of Technology and my master’s degree in Computer Science from the Technical University of Darmstadt. My research focuses on reinforcement learning, path planning, and generative artificial intelligence (GAI). Currently, I am working on applying diffusion models and GAI to scenario generation for autonomous driving.
 
