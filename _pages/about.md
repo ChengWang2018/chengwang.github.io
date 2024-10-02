@@ -23,4 +23,4 @@ I am currently an assistant professor at the [Robotics Group](https://www.hw.ac.
 
 I am leading the RoboSafe lab, where the lab's vision is to design and deploy safe and trustworthy robotics to benifit human beings and the society. My research interest is AI safety, driver behavior modeling, safety assurance and motion planning.
 
-I am recruiting PhD students under the [SPADS CDT](https://spads.eng.ed.ac.uk/) and the [CDT-D2AIR](https://www.edinburgh-robotics.org/apply) and also welcome undergraduate and masters students for internships. Droping me a message if you are interested in.
+I am recruiting PhD students under the [SPADS CDT](https://spads.eng.ed.ac.uk/) and the [CDT-D2AIR](https://www.edinburgh-robotics.org/apply) and also welcome undergraduate and masters students for internships. Droping me a message if you are interested in. We currently recruit a [postdoctoral researcher in robotics and AI](https://enzj.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3993?utm_source=eurosciencejobs&utm_medium=job_board&utm_campaign=apply_now_job_link).
