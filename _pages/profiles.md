@@ -7,77 +7,98 @@ nav: True
 nav_order: 4
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
+  # Faculty/Principal Investigators
   - align: left
     image: 
     content: about_cheng.md 
     image_circular: true # crops the image to make it circular
+    category: faculty
     more_info: >
       <p>Dr. Cheng Wang</p>
+      <p>Principal Investigator</p>
+  
+  # PhD Students
   - align: left
     image: 
     content: about_yizhuo.md
     image_circular: false # crops the image to make it circular
+    category: phd
     more_info: >
       <p>Yizhuo Xiao</p>
-      <p></p>
-      <p></p>
+      <p>PhD Student</p>
   - align: left
     image:
-    content: about_lingxin.md
+    content: about_Amir.md
     image_circular: false
+    category: phd
+    more_info: >
+      <p>Amirhossein Vahidibejestani</p>
+      <p>PhD Student</p>
+  
+  # Previous Students
+  - align: left
+    image:
+    content: 
+    image_circular: false
+    category: alumni
     more_info: >
       <p>Lingxin Kong</p>
   - align: left
     image: 
-    content: about_lin.md
+    content: 
     image_circular: false
+    category: alumni
     more_info: >
       <p>Lin Shi</p>
   - align: left
     image:
-    content: about_kexuan.md
+    content: 
     image_circular: false
+    category: alumni
     more_info: >
       <p>Kexuan Xia</p>
   - align: left
     image:
-    content: about_wei.md
+    content: 
     image_circular: false
-    more_info: >
-      <p>Wei Li</p>
-  - align: left
-    image:
-    content: about_katikala.md
-    image_circular: false
+    category: alumni
     more_info: >
       <p>Karthik Roshan Katikala</p>
   - align: left
     image:
-    content: about_yixing.md
+    content: 
     image_circular: false
+    category: alumni
     more_info: >
       <p>Yixing Zheng</p>
   - align: left
     image: 
-    content: about_yifan.md
+    content: 
     image_circular: false
+    category: alumni
     more_info: >
-      <p>Yifan Zheng</p> 
+      <p>Yifan Zheng</p>
   - align: left
     image:
-    content: about_qihao.md
+    content: 
     image_circular: false
+    category: alumni
     more_info: >
       <p>Qihao Yan</p>
   - align: left
     image:
-    content: about_tingyu.md
+    content: 
     image_circular: false
+    category: alumni
     more_info: >
       <p>Tingyu Wan</p>
   
 
 
 ---
+
+## Lab Members
+
+You can also browse by category:
+- [Faculty](/people/faculty/)
+- [Students](/people/students/)
