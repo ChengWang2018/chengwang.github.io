@@ -1,38 +1,19 @@
 name: Check for broken links
 
+# DISABLED: This workflow checks source files before the site is built,
+# but WebP images are only generated during the build process.
+# Use 'broken-links-site.yml' instead which builds the site first.
+
 on:
-  push:
-    branches:
-      - master
-      - main
-    paths:
-      - "assets/**"
-      - "**.html"
-      - "**.js"
-      - "**.liquid"
-      - "**/*.md"
-      - "**.yml"
-      - "!.github/workflows/axe.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/prettier.yml"
-  pull_request:
-    branches:
-      - master
-      - main
-    paths:
-      - "assets/**"
-      - "**.html"
-      - "**.js"
-      - "**.liquid"
-      - "**/*.md"
-      - "**.yml"
-      - "!.github/workflows/axe.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/prettier.yml"
+  # Commented out to disable this workflow
+  # push:
+  #   branches:
+  #     - master
+  #     - main
+  # pull_request:
+  #   branches:
+  #     - master
+  #     - main
 
 jobs:
   link-checker:
