@@ -1,1 +1,0 @@
-I am a postgraduate student at TU Darmstadt and write my master thesis about "Development of a Methodology for Heat-Map-Generation of Multimodal Object Detection". I obtained my bachelor degree at Tongji University.

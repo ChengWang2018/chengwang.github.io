@@ -35,7 +35,7 @@ profiles:
       <p>Amirhossein Vahidibejestani</p>
       <p>PhD Student</p>
   
-  # Previous Students
+  # Alumni
   - align: left
     image:
     content: 
@@ -63,7 +63,7 @@ profiles:
     image_circular: false
     category: alumni
     more_info: >
-      <p>Karthik Roshan Katikala</p>
+      <p>Jain Anish</p>
   - align: left
     image:
     content: 
@@ -94,11 +94,3 @@ profiles:
       <p>Tingyu Wan</p>
   
 
-
----
-
-## Lab Members
-
-You can also browse by category:
-- [Faculty](/people/faculty/)
-- [Students](/people/students/)
