@@ -62,8 +62,9 @@ WORKDIR /srv/jekyll
 COPY Gemfile ./
 # install jekyll and dependencies
 RUN gem install --no-document jekyll bundler
-RUN bundle install --no-cache
-# Generate Gemfile.lock with git sources resolved
+# Clean bundle install without git sources issues
+RUN bundle install --no-cache --retry 3
+# Generate Gemfile.lock
 RUN bundle lock --add-platform ruby
 
 EXPOSE 8080
