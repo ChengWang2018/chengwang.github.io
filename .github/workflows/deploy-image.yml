@@ -16,7 +16,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'alshedivat'
+    # Disabled: This workflow is only meant for the original template repository
+    if: false  # This prevents the workflow from running
 
     steps:
       - name: Checkout

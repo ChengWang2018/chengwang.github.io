@@ -14,8 +14,8 @@ on:
 
 jobs:
   build:
-    # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#running-a-workflow-based-on-the-conclusion-of-another-workflow
-    if: ${{ github.event.workflow_run.conclusion == 'success' }} and github.repository_owner == 'alshedivat'
+    # Disabled: This workflow is only meant for the original template repository
+    if: false  # This prevents the workflow from running
     runs-on: ubuntu-latest
     defaults:
       run:
