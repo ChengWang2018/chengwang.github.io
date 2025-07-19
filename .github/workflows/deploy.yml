@@ -12,9 +12,16 @@ permissions:
   pages: write
   id-token: write
 
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -26,6 +33,22 @@ jobs:
         with:
           ruby-version: "3.2.2"
           bundler-cache: true
+      - name: Cache Node modules
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json', '**/package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Cache Jekyll build
+        uses: actions/cache@v4
+        with:
+          path: |
+            .jekyll-cache
+            _site
+          key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.md', '**/*.yml', '**/*.liquid', 'Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-jekyll-
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
@@ -35,16 +58,18 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
+          # Install only essential system dependencies
           sudo apt-get update
           sudo apt-get install -y imagemagick libmagickwand-dev
-          pip3 install --upgrade jupyter
-          npm install -g mermaid.cli
+          # Install Node.js dependencies in parallel
+          npm install -g mermaid.cli purgecss &
+          pip3 install --upgrade jupyter &
+          wait
           export JEKYLL_ENV=production
-          bundle exec jekyll build --lsi
+          # Use incremental build and limit LSI for faster CI builds
+          bundle exec jekyll build --incremental
       - name: Purge unused CSS 🧹
-        run: |
-          npm install -g purgecss
-          purgecss -c purgecss.config.js
+        run: purgecss -c purgecss.config.js
       - name: Upload Pages artifact
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
